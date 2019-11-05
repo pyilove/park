@@ -1,0 +1,215 @@
+@charset "utf-8";
+/*메인슬라이더*/
+#container{}
+
+.mainSlider{
+   height: 350px;
+   background: url(../images/main_img.jpg)no-repeat center center;
+   background-size: cover; 
+   text-indent: -9999px;
+    position: relative;
+}
+/*슬라이더텍스트*/
+.sliderText{
+    text-align: center;
+    font-size:14px;
+    position: absolute;
+    bottom:60%;
+    left: 17%;
+    color:#fff;
+}
+.sliderText p{
+    font-size:14px;
+    line-height: 20px;
+}
+.sliderText span{
+    font-weight: bold;
+    line-height: 50px;    
+    font-size:11px;
+}
+
+/*슬라이더버튼*/
+.sliderBut{
+    
+}
+
+.sliderBut .beforeBut{
+    position: absolute;
+    z-index: 1;
+    left: 20px;
+    top:230px;
+    background: url(../images/sp_com_m.png)no-repeat -64px -30px;
+    height: 25px;
+    width: 15px;
+    text-indent: -9999px;
+}
+.sliderBut .beforeBut a{}
+
+.sliderBut .afterBut{
+     position: absolute;
+     right: 20px;
+     top:230px;
+     height: 25px;
+     width: 15px;
+     background: url(../images/sp_com_m.png)no-repeat -77px -30px;
+     text-indent: -9999px;
+}
+.sliderBut .afterBut a{}
+
+/*아이콘*/
+.icon{
+    text-align: center;
+    padding-left: 10%;
+    padding-top: 7%;
+    
+}
+.icon li {
+    float: left;
+    padding-right:30%;
+     padding-bottom: 20px;
+    
+}
+.icon li:nth-child(3n){
+    padding-right: 0px;
+}
+
+.icon li a{
+    font-size: 12px;
+    text-align: center;
+    color: #333;
+    
+}
+
+.icon span{
+     width: 35px;
+     height: 35px;
+     display: block;
+    
+}
+.icon .icon01{
+    background: url(../images/sp_com_m.png)no-repeat 0px -55px;
+    text-indent: -9999px;
+}
+
+.icon .icon02{
+    background: url(../images/sp_com_m.png)no-repeat -35px -55px;
+    text-indent: -9999px;
+}
+.icon .icon03{
+    background: url(../images/sp_com_m.png)no-repeat -73px -55px;
+    text-indent: -9999px;
+}
+.icon .icon04{ 
+    background: url(../images/sp_com_m.png)no-repeat -109px -55px;
+    text-indent: -9999px;
+}
+.icon .icon05{ 
+    background: url(../images/sp_com_m.png)no-repeat -143px -55px;
+    text-indent: -9999px;
+}
+.icon .icon06{
+     background: url(../images/sp_com_m.png)no-repeat -179px -55px;
+     text-indent: -9999px;
+}
+
+ /*사진메뉴*/
+.mainCon01{
+    margin: 0 2%;
+}
+
+.mainCon01 li{
+    width: 49%;
+    float: left;
+    text-align: center;
+    background-size: cover;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+.mainCon01 li:nth-child(2n)
+{
+    margin-right: 0;
+}
+.mainCon01 li a{
+    padding: 40% 0;
+    display: block;
+    color:#fff;
+    font-weight: bold;
+   
+}
+.mainCon01 li.mainCon01Menu02 a{
+    color:#333;
+}
+.mainCon01Menu01{
+    background: url(../images/mainrow3_img1.jpg)no-repeat;
+}
+.mainCon01Menu02{
+    background: url(../images/mainrow3_img2.jpg)no-repeat;
+}
+.mainCon01Menu03{
+    background: url(../images/mainrow3_img3.jpg)no-repeat;
+}
+.mainCon01Menu04{
+    background: pink;
+}
+/*공지*/
+.mainCon02{
+    font-size: 13px;
+    text-align: center;
+    margin: 5% 0;
+    
+    
+}
+.mainCon02 div{
+    background: #eee;
+}
+.mainCon02 div span{
+    padding-right: 2%;
+}
+.mainCon02 div p{
+    font-weight: bold;
+}
+.con02News01{
+    margin: 0% 2%;
+    padding: 10px 0;
+}
+.con02News01 p{}
+.con02News01 span{
+    font-weight: bold;
+    color: #2d5b79;
+}
+
+.con02News02{
+    margin: 2% 2%;
+    margin-bottom: %;
+    padding: 10px 0;
+}
+.con02News02 p{}
+.con02News02 span{
+    font-weight: bold;
+    color: #2d5b79;
+}
+
+/*사진메뉴*/
+.mainCon03{
+    background: url(../images/mainrow4_bg.jpg)
+    no-repeat;
+    background-size:cover;
+    padding-top: 10%;
+    padding-bottom: 30px;
+}
+.mainCon03 .poto01{
+    background: url(../images/mainrow5_img1.jpg)no-repeat;
+    background-size:100% 100%; 
+}
+.mainCon03 .poto02{
+     background: url(../images/mainrow5_img2.jpg)no-repeat;
+     background-size:100% 100%;     
+}
+.mainCon03 .poto03{
+    background: url(../images/mainrow5_img3.jpg)no-repeat;
+    background-size:100% 100%; 
+}
+.mainCon03 .poto04{
+    background: url(../images/mainrow5_img4.jpg)no-repeat;
+    background-size:100% 100%; 
+}

@@ -1,0 +1,101 @@
+@charset "utf-8";
+/*------헤더-------*/
+#header{
+    position: relative; 
+    margin: 15px 20px;
+}
+
+#header h1{
+    width: 70px;
+    height: 28px;
+    background: url(../images/sp_com_m.png)no-repeat -150px 0px;
+    text-indent: -9999px;
+ 
+}
+
+#header h1 a{
+}
+
+.panel{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0px;
+    top:10%;
+    background: url(../images/sp_com_m.png)no-repeat -225px -95px;
+    text-indent: -9999px;  
+}
+.panel span{
+    margin: 6px 0;}
+/***********푸터****************/
+#footer{
+    background: #373e42;
+    color: #fff;
+    position: relative;
+    padding-top: 50%;
+    text-align: center;
+}
+
+#footer ul{
+}
+#footer li{
+     display: inline-block;
+}
+#footer li a{
+    color: #fff;
+    font-size: 12px;
+}
+
+.fInfo{
+    position: absolute;
+    top:0px;
+    left: 20%;
+    margin-top:10%;
+}
+.fInfo li{
+    display: inline-block;
+}
+.fInfo li a{}
+
+.fInfo02{
+   position: absolute;
+   top:30%;
+   right: 40%;
+}
+
+.fCs{
+    position: absolute;
+    top:50%;
+    left: 0;    
+    
+}
+.fCs div{}
+
+.cs01{
+    display: inline-block;
+    background: #292f32; 
+}
+.cs01 p{
+    height: 40px;
+    width: 170px;
+    line-height: 40px;
+    font-size:14px;
+    
+}
+.cs01 span{}
+
+.famllySlte{
+    display: inline-block;
+}
+.famllySlte select{
+    padding:8%;
+    display: inline-block;
+}
+.famllySlte option{}
+ 
+.copyright{
+    background: #4b5358;
+    font-size:12px;
+    text-align: center;
+    padding: 3.5% 0;
+}

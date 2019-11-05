@@ -1,0 +1,346 @@
+@charset "utf-8";
+/*반응형웹뷰*/
+.panel,.mCon02Menu04,.mMainCom03,.mFooterInfo{
+    display:none;
+}
+
+@media screen and (max-width:768px){
+    /*기본값*/
+    body{
+        min-width: 100%;
+    }
+    .gnb,.utill,.con02Menu04,.mainCon05,.fLogo,.footerInfo{
+        display: none;
+    }
+    .inner{
+        width: 100%;/*창의 사이즈 기준*/
+    }
+    .mainCon01{
+        display: none;}
+    /*헤더*/
+    #header{
+        position: relative;
+        height: auto;
+        line-height: normal;
+        margin: 10px 20px;
+    }
+    #header h3{
+        position: static;
+        background: url(../m/images/sp_com_m.png);
+        width: 70px;
+        height: 28px;
+    }
+   .panel{
+    display: block; 
+    position: absolute;
+    top:50%;
+    margin-top: -8px;
+    right: 0px;
+}
+.panel a:before,.panel span,.panel a:after{
+    content: "";
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #333;
+}
+.panel span{
+    
+    margin: 5px 0;
+    text-indent: -9999px;
+}
+    .panel a:after{
+        width: 15px;
+    }
+        
+/*메인슬라이더*/
+    .mainSlider{
+     margin: 0px;
+    height: 350px;
+    background: url(../m/images/main_img.jpg)no-repeat center center;
+    background-size:cover;  
+}
+.mainSlider img{
+display: none;
+}   
+    .sliderText{
+        font-size: 14px;
+        margin-top: -35px;
+    }
+    .sliderText span{
+        font-size: 11px;
+    }
+    .sliderBut{
+        width: 13px;
+        height: 23px;
+        background: url(../m/images/sp_com_m.png)no-repeat;
+    }
+    .leftBut{background-position: -64px -30px;
+        left: 10px;}
+    .rightBut{background-position: -79px -30px;
+        right: 10px;
+        
+        }
+    /*메인컨01*/
+    .menuIcon{
+        overflow: hidden;
+        padding: 5px 0;
+    }
+    .menuIcon li{
+        float: left;
+        width: 33.33%;
+        padding: 10px 0;
+    }
+    .menuIcon span{
+        width: 33px;
+        height: 33px;
+        background: url(../m/images/sp_com_m.png)no-repeat ;
+        bottom: 0;
+        margin: 0 auto;
+    }
+    .menuIcon p{
+        font-size: 12px;
+    }
+    
+    .menuIcon .icon01{
+            background-position: 0px -59px;}
+        .menuIcon .icon01:hover{
+            background-position: 0px -59px;}
+
+     .menuIcon .icon02{
+            background-position: -37px -59px;}
+         .menuIcon .icon02:hover{
+            background-position: -37px -59px;}
+
+
+     .menuIcon .icon03{
+         background-position: -74px -59px;}
+        .menuIcon .icon03:hover{
+         background-position: -74px -59px;}
+
+     .menuIcon .icon04{background-position:-109px -59px;}
+     .menuIcon .icon04:hover{background-position:-109px -59px;}
+
+     .menuIcon .icon05{
+            background-position: -145px -59px;}
+         .menuIcon .icon05:hover{
+            background-position: -145px -59px;}
+
+     .menuIcon .icon06{
+            background-position: -181px -59px;}
+     .menuIcon .icon06:hover{
+        background-position: -181px -59px;}
+ /*메인02*/
+    .mainCon02{
+        padding: 10px; padding-bottom: 0;
+    }
+    .con02{
+        width: calc(50% - 5px);
+        height: auto;
+        margin-right: 10px;
+        padding-top: 0;
+    }
+    .con02:nth-child(2n){
+        margin-right: 0px;
+    }
+    .con02 h3{
+        font-size: 16px;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .con02 a{
+        padding: 45% 0;
+    }
+    .con02 a:hover{background: none;}
+    .con02 a:hover p{display: none;}
+    .con02Menu02 a:hover h3{color: #000;}
+    .mCon02Menu04{display: block; margin-right: 0; padding: 0;
+        background: #2d5d79}
+    .mCon02Menu04 h3{
+        color:#fff;
+    }
+    .con02{
+        margin-bottom: 10px;
+    }
+    /*메인03*/
+    .mMainCom03{display: block;}
+    .mMainCom03{padding: 0 10px;}
+    .mMainCom03 dl{
+        background: #f2f0ed; overflow: hidden;font-weight: bold;font-size:13px;padding: 3% 0;margin-bottom: 10px;
+    }
+    .mMainCom03 dt{width: 15%;float: left; text-align: center;color:#2d5b79;}
+    .mMainCom03 dd{
+        width: 80%;float: left;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;
+    }
+    
+    .mainCon06{
+        width: auto;
+        padding:20px 10px;
+        padding-bottom: 10px;
+        height:auto;
+    }
+    .con6{
+        width: calc(50% - 5px);
+        height: auto;
+        margin-right: 10px;
+        background-size:100% 100%;
+        margin-bottom: 10px;
+        margin-top:0;
+    }
+        
+    .con6:nth-child(2n){
+        margin-right: 0;
+    }
+    .con6 h3{
+        padding-top:0px;
+        font-size:14px;
+    }
+    .con6 a{
+        padding: 80% 0 10% 0;
+    }
+    .con6 p{
+        display: none;
+    }
+    /*푸터*/
+    
+    .footerTop{height: auto;line-height: normal; text-align: center;}
+    .fMenu{width: 100%;font-size:12px;font-weight: bold;
+        line-height: 30px;}
+    .fMenu li{
+        float: none;display: inline-block;
+    }
+    .fMenu li:last-child:after{
+        display: none;
+    }
+    .footerCs .csMenu,.footerCs span{
+        font-size: 13px;
+    }
+    .footerTopR{float: none;display: inline-block;}
+    .footerTopR div{
+        height: 40px; line-height: 40px;
+    }
+    .familySite{width: auto;padding-right: 30px;font-size: 13px;}
+    .mFooterInfo{display: block;color:#fff;font-size:11px; font-weight: bold;line-height:  60px;text-align: center;}
+/*
+#header h3{
+	width: 110px;
+	height: 45px;
+	background: url(../images/sp_com.png)no-repeat -300px -5px;
+	text-indent: -9999px;
+	position: absolute;
+	left: 20px;
+	top:20px;
+}
+#header h3 a{
+	display: block;
+}
+    .panel{
+    height: 100%;
+    width: 40px;    
+    position: absolute;
+    top:50%;
+    right: 0;
+    margin-top:-9px;
+}
+.panel a:before,.panel span,.panel a:after{
+    content: "";
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #333;
+        
+}
+.panel span{
+    margin: 5px 0;
+    text-indent: -9999px;
+}
+    #contents{
+	position: relative;
+}
+
+.mainSlider{
+	height: 350px;
+    background: url(../images/main_img.jpg)no-repeat;
+	position: relative;
+    margin: 0px;
+}
+.mainSlider img{
+display: none;
+}
+
+.sliderText{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	color:#fff;
+	top:50%;
+	margin-top: -70px;
+	font-size: 35px;
+	font-weight: bold;	
+}
+
+  .menuIcon li{
+    display: inline-block;
+	padding: 0 9%;
+    } 
+    .menuIcon span{
+	width: 70px;
+	height: 55px;
+	display: block;
+	background: url(../images/sp_com.png)no-repeat 2px -118px;
+	text-indent: -9999px;
+    margin-bottom: 5px;
+}
+    .menuIcon p{
+    padding:10% 0;
+	color:#000;
+	font-size: 13px;
+}
+    .mainCon01{
+        display: none;
+    }  
+   
+    .mainCon02{
+    padding-top:0px;
+}
+    .con02{
+	width: calc(50% - 5px);
+    margin-top: 10px;
+	margin-right: 10px;
+}
+    .con02:nth-child(2n){
+        margin-right: 0;
+    }
+    .con02Menu04 .pdtSelect{
+        display: none;
+    }
+    .searchBtn{
+        display: none;
+    }
+    .con02Menu04 p{
+        display: none;
+    }
+  .con02Menu04 h3{
+      padding-top: 65px;
+      color:#fff;
+}
+    .con02Menu04{
+	background: url(../images/mainrow2_list_img.jpg) no-repeat;
+    background-size:cover;}
+   
+    .notice{
+	width: 50%;
+	float: left;
+	padding: 33px 20px;
+	box-sizing: border-box;
+
+}
+    .con05 h2{
+	text-align: center;
+	color:#2d5b79;
+	padding: 15px 0;
+    font-size:20px;}*/
+
+    
+    
+}

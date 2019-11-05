@@ -1,0 +1,2 @@
+min-width:1200px; - 최소
+max-width:1200px; - 최대

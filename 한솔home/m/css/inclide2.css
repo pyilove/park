@@ -1,0 +1,103 @@
+@charset "utf-8";
+/*헤더*/
+#header{
+    position: relative;
+    margin: 2% 2%;
+    top:50%;
+}
+
+#header h1{
+    width: 70px;
+    height: 30px;
+    background: url(../images/sp_com_m.png)no-repeat;
+    text-indent: -9999px;
+}
+#header h1 a{}
+
+.panel{
+    position: absolute;
+    right: 0px;
+    top:50%;
+    margin-top:-8px;
+}
+.panel a{}
+.panel a:before,.panel span,.panel a:after{
+    content: "";
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: #333;
+}
+.panel a:after{
+    width: 12px; 
+}
+.panel span{
+    margin: 5px 0;
+    text-indent: -9999px;
+}
+
+/*푸터*/
+#footer{
+    background: #373e42;
+    color:#fff;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.fMenu{
+    font-size: 0px;
+    height: 35px;
+    line-height: 35px;
+    
+}
+.fMenu li{
+    display: inline-block;
+    font-size: 12px;
+}
+.fMenu li:after{
+    content: "";
+    display: inline-block;
+    width:1px;
+    height: 10px;
+    background: #fff;
+    margin: 0 8px;
+}
+.fMenu li:last-child:after{
+    display: none;
+}
+.fMenu li a{
+    color:#fff;
+}
+
+.fCs{
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.call{
+    background: #2A3033;
+    margin-right: 10px;
+}
+.call span{
+    padding-right: 10px;
+}
+
+.famllySlte{
+    border: 0px;
+    -webkit-appearance:none;
+    background: #fff url(../images/ico_arrow.gif)no-repeat 95% center;
+    padding-right: 30px;
+}
+.call, .famllySlte{
+     float: left;
+     height: 40px;
+     line-height: 40px;
+     padding: 0 15px;
+}
+.fCopy{
+    background: #4b5358;
+    line-height: 55px;
+    font-size: 11px;
+}
