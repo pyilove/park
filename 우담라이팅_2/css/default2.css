@@ -1,0 +1,28 @@
+@charset utf-8;
+/*기본값*/
+body,h1,h2,h3,h4,h5,h6,p,dd,dl{
+    margin: 0px;   
+    font-family: 'NotoSans';
+    
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+ul{
+    list-style:none;
+    margin: 0px;
+    padding: 0px;
+}
+.inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+#wrap{
+    width:100%;
+}
+.cf:after{
+    content: "";
+    display: block;
+    clear: both;
+}

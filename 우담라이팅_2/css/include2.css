@@ -1,0 +1,200 @@
+@charset utf-8;
+/*헤더*/
+#header{
+}
+
+.logo{
+    float: left;
+    margin-left: 70px;
+    top: 50px;
+    margin-bottom: 50px; 
+}
+.logo a{}
+.logo img{}
+
+.gnb{
+   margin-top: 50px;
+}
+.gnb li{
+    float: left;
+}
+.gnb li a{
+    line-height: 45px;
+    margin-left: 80px;
+}
+/*푸터*/
+#footer{
+    background: #f3f1f4;
+    position:relative;
+    padding-bottom: 42px;
+}
+.fWrap{
+    padding: 50px 0px;
+    border-bottom: #888 1px solid;
+}
+
+
+.part01{
+    float: left;
+    margin:0 60px;
+    padding-right: 60px;
+    border-right: 1px solid #ddd;
+}
+.pInfo01{}
+.pInfo01 dt{
+    font-weight: 100;
+}
+.pInfo01 dd{}
+.infoT{
+    font-size:20px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.infoT01{
+    font-weight: 100;
+    font-size:25px;
+}
+.infoT02{
+     font-size:30px;
+     font-weight: 500;
+}
+
+.pInfo02{}
+.pInfo02 li{
+}
+.pInfo02 p{
+
+}
+.pInfo02 a{}
+.pInfo02 img{
+    background: #000;
+    border-radius: 50px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.last01{
+    margin-right: 0px;
+}
+.part02{
+    float: left;
+    margin-right: 700px;
+
+}
+.pInfo02_1 span:after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background: #6c6c6c;
+    margin: 0px 10px;
+}
+.pInfo02_1{}
+.pInfo02_1 dt{
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+}
+.pInfo02_1 dd{
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 200;
+}
+.pInfo02_1 span{}
+
+.pInfo02_2{
+    margin: 50px 0px;
+}
+.pInfo02_2 dt{
+    width: 95px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 400;
+}
+.pInfo02_2 dd{
+     vertical-align: top;
+     display: inline-block;
+     font-weight: 200;
+}
+.pInfo02_2 dt:after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background: #6c6c6c;
+    margin: 0px 10px;
+}
+.pInfo02_3{
+     float: left;
+}
+.pInfo02_3 dt{
+     font-weight: 400;
+     vertical-align: top;
+     width: 100px;
+     display: inline-block;
+}
+.pInfo02_3 dt:after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background: #6c6c6c;
+    margin: 0px 20px;
+}
+.pInfo02_3 dd{
+    vertical-align: top;
+    display: inline-block;
+    font-weight: 200;
+}
+
+.part03{
+     background: url(../images/sub/textBox.png) no-repeat right 50px center; 
+    height: 220px;
+}
+.pInfo03_1{
+    color: #fff;
+}
+.pInfo03_1 li{
+    text-align: center;
+    padding-right: 90px;
+    padding-top: 40px;
+}
+.pInfo03_1 a{
+    color: #888;
+    font-weight: 100;
+    font-size: 12px;
+     border: #888 1px solid;
+     width: 500px;
+     height: 30px;
+}
+.boxText{
+    font-size:20px;
+    font-weight: 400;
+}
+
+.fBut{
+    position:absolute;
+    bottom:0;
+    right: 0;
+
+}
+.fBut li{
+    float:left;}
+.fButT{
+   margin-top: 10px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+.fBut01 img{
+    vertical-align: middle;
+}
+.fBut02 img{
+    vertical-align: middle;
+}
+.fBut02{
+    background: #000;
+}
+
+
+
